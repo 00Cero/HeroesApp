@@ -1,0 +1,5 @@
+export { ErrorPage } from './ErrorPage'
+export { DcPage } from './DcPage'
+export { MarvelPage } from './MarvelPage'
+export { Hero } from './Hero'
+export { Search } from './Search'
