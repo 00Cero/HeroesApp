@@ -33,13 +33,13 @@ export const router = createBrowserRouter([
         path: 'hero/:id',
         element: <Hero />,
         errorElement: <ErrorPage />
+      },
+      {
+        path: 'login',
+        element: <LoginPage />,
+        errorElement: <ErrorPage />
       }
     ]
-  },
-  {
-    path: 'login',
-    element: <LoginPage />,
-    errorElement: <ErrorPage />
   }
 
 ])
